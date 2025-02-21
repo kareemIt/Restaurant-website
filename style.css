@@ -25,6 +25,15 @@ p
 	align-items: center;
 	background: url(img/bg.jpg);
 	background-size: cover;
+
+}
+
+@media (max-width: 480px) {
+	.banner{
+	background-size: cover;
+	background-position: center center;
+	}
+
 }
 
 .banner .content
@@ -36,14 +45,14 @@ p
 .banner .content h2
 {
 	font-size: 5em;
-	color: #fff;
+	color: #db5275;
 	text-transform: capitalize;
 }
 
 .banner .content p
 {
-	font-size: 1em;
-	color: #fff;
+	font-size: 1.5em;
+	color: #faefd6;
 }
 
 .btn
@@ -137,6 +146,10 @@ section
 	padding: 100px;
 }
 
+.about{
+	background-color: #faefd6;
+}
+
 .row
 {
 	position: relative;
@@ -153,7 +166,7 @@ section
 
 .titleText
 {
-	color: #111;
+	color: #db5275;
 	font-size: 2em;
 	font-weight: 300;
 }
@@ -321,6 +334,7 @@ section
 {
 	background: url(img/bg3.jpg);
 	background-size: cover;
+	background-color: #faefd6;
 }
 
 .contactForm
@@ -381,6 +395,10 @@ section
 	padding: 8px 40px;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	text-align: center;
+	display: flex;
+	align-items: center;
+	Justify-content: center;
+	gap: 10px;
 }
 
 .copyrightText p
@@ -471,7 +489,7 @@ section
 	.banner .content h2
 	{
 		font-size: 3em;
-		color: #fff;
+		color: #db5275;
 	}
 
 	.row
@@ -538,5 +556,14 @@ section
 		padding: 35px 40px;
 		margin-top: 20px;
 		margin-bottom: 30px;
+	}
+
+	.copyrightText{
+	padding: 8px 40px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: center;
+	align-items: center;
+	Justify-content: center;
+	display: block;
 	}
 }
