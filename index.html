@@ -191,36 +191,30 @@
 
 	<section class="contact" id="contact">
 		<div class="title">
-			<h2 class="titleText">Contact Us</h2>
-			<p>Leave us a request on what you would like</p>
+		  <h2 class="titleText">Contact Us</h2>
+		  <p>Leave us a request on what you would like</p>
 		</div>
 		<div class="contactForm">
-			<h3>Send Message</h3>
-			<form id="contactForm" action="https://formsubmit.co/kareem.itani2@gmail.com" method="POST">
-				<div class="inputBox">
-					<input type="text" name="name" placeholder="Name" required>
-				</div>
-				<div class="inputBox">
-					<input type="email" name="email" placeholder="Email" required>
-				</div>
-				<div class="inputBox">
-					<textarea name="message" placeholder="Message line..." required></textarea>
-				</div>
-				<div class="inputBox">
-					<input type="submit" value="Send">
-				</div>
-				<input type="hidden" name="_next" value="https://yourwebsite.com/thank-you-page.html">
-			</form>
-	
-			<!-- Dropdown for Sent Confirmation -->
-			<div id="sentDropdown" style="display: none;">
-				<label for="sentStatus">Message Sent:</label>
-				<select id="sentStatus" disabled>
-					<option value="sent">Your message has been sent. Thank you!</option>
-				</select>
+		  <h3>Send Message</h3>
+		  <form action="https://formsubmit.co/ronbakeshop24@gmail.com" method="POST">
+			<div class="inputBox">
+			  <input type="text" name="name" placeholder="Name" required>
 			</div>
+			<div class="inputBox">
+			  <input type="email" name="email" placeholder="Email" required>
+			</div>
+			<div class="inputBox">
+			  <textarea name="message" placeholder="Message..." required></textarea>
+			</div>
+			<div class="inputBox">
+			  <input type="submit" value="Send">
+			</div>
+			<!-- Hidden fields for customizing email and redirect -->
+			<input type="hidden" name="_subject" value="New Contact Form Submission">
+			<input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+		  </form>
 		</div>
-	</section>
+	  </section>
 	
 	<script>
 		// Get the form and the dropdown
